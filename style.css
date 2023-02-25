@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c9ada7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    margin: 0;
+    font-weight: 400;
+    color: #22223b;
+}
+h2{
+    margin: 0;
+    font-weight: 400; 
+    display: inline;
+    color: #f2e9e4;
+}
+
+.box{
+    background: #f2e9e4;
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.header-left{
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.primer-nombre{
+    font-weight: 400;
+    margin: 0;
+}
+
+.apellido{
+    font-weight: 200;
+    margin: 0;
+}
+
+.header-right{
+    width: 100%;
+    display: grid;
+    justify-items: end;
+}
+
+.header-right p{
+    display: inline;
+    color: #22223b;
+}
+
+.icon{
+    color: #9a8c98;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.grey{
+    background: #22223b;
+    color: #f2e9e4;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+table{
+    border: 3px solid #22223b;
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #22223b;
+    padding: 0.4rem;
+}
+#redessociales{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: #22223b;
+    color: #f2e9e4;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+   
+
+}
+#redessociales:hover{
+    cursor: pointer;
+    background:#131325;
+
+}
+#redessociales.clicked{
+    background-color: #22223b;
+
+
+}
